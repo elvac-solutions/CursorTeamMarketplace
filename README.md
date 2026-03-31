@@ -4,13 +4,16 @@ An example Team Marketplace that includes a set of starter plugins for Cursor.
 
 ## Included plugins
 
-This repo currently ships five grouped plugins:
+This repo ships multiple grouped plugins, including:
 
 - **git-workflows**: commit, PR, CI, merge conflict, and branch validation workflows
 - **documentation**: README updates, weekly review summaries, markdown naming, and docs writing
 - **pm**: Ticket-oriented PM workflows with MCP config, ticket writing, and board summarization
 - **design**: wireframes, component design support, and mockup workflow
 - **testing-reliability**: Datadog dashboards, performance optimization, and testing agents
+- **planning**: strategic planning workflows including devil's advocate analysis
+- **featureflag-migration**: migrate legacy feature flags to OpenFeature
+- **stitch-react-sync**: Google Stitch MCP, Stitch/React skills, `stitch-react-sync` subagent, and `/sync-stitch-react` for Vite/React parity with Stitch screens
 
 ## Repository structure
 
@@ -19,6 +22,7 @@ This repo currently ships five grouped plugins:
 - `plugins/<plugin-name>/rules`: rule files (`.mdc`)
 - `plugins/<plugin-name>/skills`: skill folders with `SKILL.md`
 - `plugins/<plugin-name>/agents`: subagent definitions
+- `plugins/<plugin-name>/commands`: slash commands (`.md` with frontmatter)
 - `plugins/<plugin-name>/mcp.json`: MCP server configuration for each plugin
 
 ## Validate changes

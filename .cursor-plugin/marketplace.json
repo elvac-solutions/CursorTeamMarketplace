@@ -44,6 +44,11 @@
       "name": "featureflag-migration",
       "source": "featureflag-migration",
       "description": "Migrate legacy feature flag systems to OpenFeature with inventory, migration, verification, cleanup, and scaffolding"
+    },
+    {
+      "name": "stitch-react-sync",
+      "source": "stitch-react-sync",
+      "description": "Google Stitch MCP, Stitch/React skills, stitch-react-sync subagent, and /sync-stitch-react command for Vite/React parity"
     }
   ]
 }

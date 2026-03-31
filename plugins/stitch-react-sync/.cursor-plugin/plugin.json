@@ -1,0 +1,28 @@
+{
+  "name": "stitch-react-sync",
+  "displayName": "Stitch → React Sync",
+  "version": "0.1.0",
+  "description": "Google Stitch MCP, Stitch/React skills, and the stitch-react-sync subagent for syncing Stitch screens into a Vite/React app. Includes the /sync-stitch-react command.",
+  "author": {
+    "name": "IronScale contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "stitch",
+    "google-stitch",
+    "react",
+    "vite",
+    "mcp",
+    "design-system"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "frontend",
+    "design",
+    "sync"
+  ],
+  "logo": "assets/stitch-react-sync.png",
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "commands": "./commands/"
+}
